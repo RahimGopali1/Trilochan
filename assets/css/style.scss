@@ -237,7 +237,7 @@ header {
   }
   @media screen and (max-width: 992px) {
     .navbar {
-      .navbar-brand{
+      .navbar-brand {
         margin-right: 0;
       }
       .nav-link {
@@ -733,10 +733,22 @@ header {
     background-color: $background-color_1;
     -webkit-text-decoration-skip: objects;
   }
-  .logo {
+  .brochure {
     background-color: $color-white;
-    padding: 0 20px;
     border-radius: 12px;
+    width: 10rem;
+    overflow: hidden;
+    transition: 0.3s all ease-in-out;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    &:hover {
+      transform: scale(1.1);
+      transition: 0.3s all ease-in-out;
+    }
+  }
+  .counter {
+    img {
+      width: 10rem;
+    }
   }
   ul.social {
     li {

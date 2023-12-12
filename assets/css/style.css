@@ -81,7 +81,7 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  height: 5rem;
+  height: 15rem;
 }
 .top__header-wrappper .overlay {
   width: 100%;
@@ -1123,10 +1123,20 @@ header .navbar .dropdown-menu > li:hover > .dropdown-submenu {
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
 }
-#footer .logo {
+#footer .brochure {
   background-color: #fff;
-  padding: 0 20px;
   border-radius: 12px;
+  width: 10rem;
+  overflow: hidden;
+  transition: 0.3s all ease-in-out;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+#footer .brochure:hover {
+  transform: scale(1.1);
+  transition: 0.3s all ease-in-out;
+}
+#footer .counter img {
+  width: 10rem;
 }
 #footer ul.social li {
   padding: 3px 0;
